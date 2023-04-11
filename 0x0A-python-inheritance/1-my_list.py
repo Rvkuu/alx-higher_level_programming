@@ -6,7 +6,7 @@ This method is used to inherit list
 
 class MyList(list):
     """
-    This is a inherited class and inherits to list
+    This is an inherited class and inherits to list
     """
     def print_sorted(self):
         """
