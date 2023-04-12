@@ -1,15 +1,11 @@
 #!/usr/bin/python3
-"""
-This method is used to inherit list
-"""
+
+"""Defines an inherited list class MyList."""
 
 
 class MyList(list):
-    """
-    This is an inherited class and inherits to list
-    """
+    """Implements sorted printing for the built-in list class."""
+
     def print_sorted(self):
-        """
-        This method is used to reverse the orderof list elements
-        """
+        """Print a list in sorted ascending order."""
         print(sorted(self))
