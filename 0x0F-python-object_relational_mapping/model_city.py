@@ -12,7 +12,7 @@ Base = declarative_base()
 
 
 class City(Base):
-    
+
     """This represents a city for a MySQL database.
     Attributes:
         id (str): The city's id.

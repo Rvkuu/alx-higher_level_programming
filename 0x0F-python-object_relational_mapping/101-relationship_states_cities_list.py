@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 """
-Lists all States and equivalent Cities in the database hbtn_0e_101_usa.
+Lists all States and corresponding Cities in the database hbtn_0e_101_usa.
 """
+
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -18,4 +20,4 @@ if __name__ == "__main__":
     for state in session.query(State).order_by(State.id):
         print("{}: {}".format(state.id, state.name))
         for city in state.cities:
-            print("    {}: {}".format(city.id, city.name))i
+            print("    {}: {}".format(city.id, city.name))

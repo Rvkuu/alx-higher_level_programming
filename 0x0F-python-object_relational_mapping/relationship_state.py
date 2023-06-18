@@ -12,7 +12,7 @@ from relationship_city import Base, City
 
 
 class State(Base):
-    
+
     """It represents a state for a MySQL database.
     Attributes:
         __tablename__ (str): The name of the MySQL table to store States.
